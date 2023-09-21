@@ -5,10 +5,12 @@
  
 
   } 
+  
 .header1{
   font-size: 25px;
   font-family: cursive;
   color: #795548;
+
 }
 
 
@@ -41,7 +43,7 @@ text-align-last: right;
 text-align: justify;
 outline:2px solid #EC407A;
 line-height: 35px;
-font-family: Arial, Helvetica, sans-serif;
+font-family: yekan, Helvetica, sans-serif;
 }
 .div2{
   font-size: 22px;
@@ -63,7 +65,10 @@ font-family: cursive,fantasy;
 margin-bottom: 30px;
 
 }
+audio{
+  flex-direction: row ;
 
+}
 
 
 
