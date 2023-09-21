@@ -1,8 +1,8 @@
 *{
    box-sizing: border-box;
    margin: 0;
-
-   direction: ;
+   text-decoration: none;
+   
 
 
   } 
@@ -17,13 +17,17 @@ margin-right: 20px;
   font-family: yekan;
   src: url(font/Yekan.woff);
 }
+.header1:hover{
+  color: #182d37;
+}
+.header1:active{
+  background-color: #56f227;
+}
 
 
+.p1{margin-top: 30px;}
 
-
-
-
-body{background-image: url(mah.jpg);
+body{background-image: url(mah.tar.png); 
 
 background-position: center center;
 background-attachment: fixed;
@@ -139,20 +143,16 @@ float: right;
   color: #e2e2e2;
 padding: 28px;
 margin-right: 600px;
+}
 
-
-
-
-
-
-.li2{
-  width: 350px;
- font-size: 25px;
- font-family: yekan,tahoma;
+.abc,.adc:hover{
+  color: #56f227;
   
-
 }
 
 
 
 
+.abc,.adc{
+
+}
