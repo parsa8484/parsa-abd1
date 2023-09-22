@@ -136,6 +136,7 @@ float: right;
   float: right;
   padding-top: 100 ;
    padding-right: 250px;
+  
 }
 
 #ertebat{font-size: 16px;
@@ -150,9 +151,9 @@ margin-right: 600px;
   
 }
 
-
-
-
-.abc,.adc{
-
+.link{list-style-image: url(https://icongr.am/feather/phone-call.svg?size=22&color=currentColor);
+ margin-top: 6px;
+ 
 }
+
+
