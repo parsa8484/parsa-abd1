@@ -147,9 +147,13 @@ padding: 28px;
 margin-right: 600px;
 }
 
-.link1,.link2:hover{
-  color: #56f227;
-  
+.link1:hover{  
+  color: #8eb980 !important;
+}
+
+.link2:hover{
+  color: #8eb980 !important;
+
 }
 
 .link{list-style-image: url(https://icongr.am/feather/phone-call.svg?size=22&color=currentColor);
