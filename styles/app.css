@@ -139,6 +139,7 @@ float: right;
   
 }
 
+
 #ertebat{font-size: 16px;
   font-family:  yekan , Tahoma;
   color: #e2e2e2;
@@ -146,7 +147,7 @@ padding: 28px;
 margin-right: 600px;
 }
 
-.abc,.adc:hover{
+.link1,.link2:hover{
   color: #56f227;
   
 }
