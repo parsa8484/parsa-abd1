@@ -94,7 +94,7 @@ font-family: shabnam;
 }
 .section-head1{
 position: relative;
-right: 204px;
+margin-right: 204px;
 top: 48px ;
 font-size: 20px;
 }
@@ -154,7 +154,7 @@ left: 20px;
 
 position: relative;
 top: 74px;
-right: 230px;
+margin-right: 230px;
 }
 .del1{
 position: relative;
@@ -286,8 +286,7 @@ margin-right: 600px;
 .link2:hover{
  color: #8eb980 !important;
 }
-
 .link{list-style-image: url(https://icongr.am/feather/phone-call.svg?size=22&color=currentColor);
-margin-top: 6px;
-
-}
+  margin-top: 6px;
+  
+  }
