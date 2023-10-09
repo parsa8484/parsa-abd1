@@ -2,7 +2,10 @@
   box-sizing: border-box;
   margin: 0;
   text-decoration: none;
-  
+  ::selection{
+    color: white;
+    background-color:#6D4C41 ;
+  }
 
 
  } 
@@ -36,7 +39,7 @@ background-repeat: repeat;
 }
 
  .box4{ direction: rtl;
-   background-color: #FB8C00;
+  background-color: #FB8C00;
    color: #fff;
    padding: 24px;
    border-radius: 15px;
@@ -51,6 +54,7 @@ text-align: justify;
 outline:2px solid #EC407A;
 line-height: 35px;
 font-family: yekan, Helvetica, sans-serif;
+
 }
 .div2{
  direction: ltr;
