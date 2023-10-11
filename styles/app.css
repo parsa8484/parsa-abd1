@@ -39,7 +39,7 @@ background-repeat: repeat;
 }
 
  .box4{ direction: rtl;
-  background-color: #FB8C00;
+  background-image: linear-gradient(20deg,#FFEE58,#FF8F00,#E040FB);
    color: #fff;
    padding: 24px;
    border-radius: 15px;
@@ -65,7 +65,7 @@ font-family: yekan, Helvetica, sans-serif;
 margin-right: auto;
 border-radius: 13px;
 margin-bottom: 40px;
-background-color: #795548;
+background-image: linear-gradient(20deg,#FFEE58,#FF8F00,#E040FB);
 
 width: 660px;
 text-align: justify ;
@@ -137,7 +137,7 @@ font-size: 0.9rem;
 background-size: 80%;
 background-repeat: no-repeat;
 background-position: center 20px;
-box-shadow: 2px 2px #009688;
+box-shadow: 2px 2px 14px rgba(0,0,0,.2);
 }
 .cabl{
  margin-top: 215px;
@@ -194,7 +194,7 @@ text-decoration: line-through;
 background-size: 80%;
 background-repeat: no-repeat;
 background-position: center 20px;
-box-shadow: 2px 2px #009688;
+box-shadow: 2px 2px 14px rgba(0,0,0,.2);
 
 }
 
@@ -208,7 +208,7 @@ box-shadow: 2px 2px #009688;
 background-size: 80%;
 background-repeat: no-repeat;
 background-position: center 20px;
-box-shadow: 2px 2px #009688;
+box-shadow: 2px 2px 14px rgba(0,0,0,.2);
 
 }
 
@@ -220,7 +220,7 @@ background-image: url(/image/img4.jpg);
 background-size: 80%;
 background-repeat: no-repeat;
 background-position: center 20px;
-box-shadow: 2px 2px #009688;
+box-shadow: 2px 2px 14px rgba(0,0,0,.2);
 
 }
 .span4{
