@@ -33,7 +33,7 @@ position: absolute;
 }
 .header1:hover{
  color: #7986CB;
-transform: scale(.95);
+transform: scale(.91);
 }
 .header1:active{
  background-color: #56f227;
