@@ -9,19 +9,31 @@
 
 
  } 
- 
+ .divheader1{
+  background-color: #6D4C41;
+  height: 40px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+ }
+
 .header1{
+
  font-size: 25px;
  font-family: cursive;
  color: #FFF59D;
 margin-right: 20px;
+transition: all 250ms ease-in ;
+position: absolute;
+
 }
 @font-face {
  font-family: yekan;
  src: url(font/Yekan.woff);
 }
 .header1:hover{
- color: #182d37;
+ color: #7986CB;
+transform: scale(.95);
 }
 .header1:active{
  background-color: #56f227;
@@ -282,7 +294,9 @@ width: 350px;
 padding: 28px;
 margin-right: 600px;
 }
-
+.link1,.link2{
+  transition: all 150ms ease-in 5ms;
+}
 .link1:hover{  
  color: #8eb980 !important;
 }
