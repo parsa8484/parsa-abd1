@@ -6,7 +6,7 @@
     color: white;
     background-color:#6D4C41 ;
   }
- } 
+  } 
  .divheader1{
   background-color: #6D4C41;
   height: 40px;
@@ -32,6 +32,71 @@ transform: scale(.91);
 }
 .header1:active{
  background-color: #56f227;
+}
+.menu{
+  width: 130px;
+  height: 40px;
+   position: relative;
+   margin-left: .5%;
+  margin-right: auto;
+}
+.menu-btn{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 130px;
+  height: 40px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+font-family: shabnam;
+background-color: #0288D1;
+color: #fff;
+cursor: pointer;
+transition: all 120ms ease-in 80ms;
+}
+.menu-svg{
+  height: 30px;
+  width: 30px;
+  transition: all 120ms ease-in 80ms;
+  position: relative;
+  left: 90px;
+bottom: 1px;
+}
+.menu-contein{
+  transition: all 120ms ease-in 80ms;
+  opacity: 0;
+  width: 130px;
+  padding: 16px;
+  border-radius: 6px;
+  background-color: #fff;
+  box-shadow: 0 2px 16px rgba(0, 0, 0, .1);
+  margin-left: .5%;
+  margin-right: auto;
+  visibility: hidden;
+}
+.menu-contein a{
+
+  text-decoration: none0;
+  color: #1b1b1b;
+  display: block;
+  text-align: center;
+  margin-bottom: 6px;
+}
+.menu-contein a:last-child{
+  margin-bottom: 0;
+}
+.menu:hover .menu-contein{
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(10px);
+}
+.menu:hover .menu-btn{
+  background-color: #0277BD;
+}
+.menu:hover .menu-btn svg{
+  transform: rotate(180deg);
 }
 .p1{
   margin-top: 30px;
